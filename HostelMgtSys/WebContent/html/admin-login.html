@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/admin-login.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="../JS/admin-login.js"></script>
+<title>Admin Login</title>
+
+</head>
+
+<body>
+	<form id="adminLogin" action="../html/admin-home.html">
+		<br>
+		<h1>ADMIN ACCESS CODE</h1>
+
+		<div>
+			<label for="" class="txt-input">Admin Access Code</label> 
+			<input id="txtAccess" type="text" placeholder="Enter Access Code" class="txt-input">
+			<br>
+			<input type="submit" id="btnAccess" value="Access" class="btn1" onclick=" return fieldCheck();"> 
+			<input type="submit" id="btnReset" value="Reset" class="btn2" onclick=" return fieldClear();">
+		</div>
+	</form>
+</body>
+
+</html>
